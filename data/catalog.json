@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "managedBy": "Lux Codex",
+  "products": [
+    {
+      "id": "desktop",
+      "name": "Lux Agent Desktop",
+      "category": "Software",
+      "tagline": "Your ideas. One powerful home.",
+      "description": "Bring conversations, projects, voice and your AI tools into a personal workspace built around the way you work.",
+      "images": [
+        "assets/desktop-front.png",
+        "assets/desktop-back.png"
+      ],
+      "features": [
+        "Chat and voice workspace",
+        "Projects, tools and AI profiles",
+        "Lux ecosystem connections"
+      ],
+      "cta": "Explore workspace"
+    },
+    {
+      "id": "usb",
+      "name": "Lux Agent USB",
+      "category": "Devices",
+      "tagline": "Your AI. Anywhere.",
+      "description": "A portable Lux workspace designed to keep your tools, files and AI setup close at hand.",
+      "images": [
+        "assets/usb-front.png",
+        "assets/usb-back.png"
+      ],
+      "features": [
+        "Portable Lux collection",
+        "Device setup and compatibility",
+        "Front and back retail packaging"
+      ],
+      "cta": "Explore Lux USB"
+    },
+    {
+      "id": "viewer",
+      "name": "Lux Agent Viewer",
+      "category": "Devices",
+      "tagline": "Your AI team. Always in view.",
+      "description": "A compact companion display for keeping your Lux team, conversations and workspace in view.",
+      "images": [
+        "assets/viewer-front.png",
+        "assets/viewer-back.png"
+      ],
+      "features": [
+        "Compact companion display",
+        "Team and workspace overview",
+        "Device connection and setup"
+      ],
+      "cta": "Explore Viewer"
+    },
+    {
+      "id": "lux-3d-website-studio",
+      "name": "3D Website Studio",
+      "category": "Prompt Kits",
+      "tagline": "Give your next website another dimension.",
+      "description": "Creative direction, reusable prompts, skills and starter tracks for cinematic 3D website work.",
+      "images": [
+        "assets/kit-3d.png"
+      ],
+      "features": [
+        "Creative direction and master prompt",
+        "Eight reusable Lux skills",
+        "React Three Fiber and Three.js starter tracks"
+      ],
+      "cta": "Explore toolkit",
+      "source": "Lux Codex Kit Creator"
+    },
+    {
+      "id": "lux-motionframe-studio",
+      "name": "MotionFrame Studio",
+      "category": "Prompt Kits",
+      "tagline": "Build websites that move people.",
+      "description": "A Lux AI Toolkit Club pack for scroll stories, frame sequences and interactive 3D experiences.",
+      "images": [
+        "assets/kit-motion.png"
+      ],
+      "features": [
+        "Twenty ready-to-adapt prompts",
+        "Eight original visual and workflow skills",
+        "Frame sequences, GLB and Next.js workflows"
+      ],
+      "cta": "Explore toolkit",
+      "source": "Lux Codex Kit Creator"
+    }
+  ],
+  "offers": [
+    {
+      "id": "toolkit-club",
+      "name": "Lux AI Toolkit Club",
+      "icon": "\u25c8",
+      "description": "Creative prompt kits, member offers and a growing toolkit collection."
+    },
+    {
+      "id": "agent-builder",
+      "name": "Lux Agent Builder",
+      "icon": "\u2726",
+      "description": "Give your next AI teammate a role, a voice and a purpose."
+    },
+    {
+      "id": "lux-flow",
+      "name": "Lux Flow",
+      "icon": "\u2197",
+      "description": "Make your best process repeatable, from trigger to handoff."
+    },
+    {
+      "id": "ai-team-plus",
+      "name": "AI Team Plus",
+      "icon": "\u25ce",
+      "description": "Bring complementary AI roles together around your work."
+    },
+    {
+      "id": "success-packs",
+      "name": "Success Packs",
+      "icon": "\u25c7",
+      "description": "Focused business playbooks for your industry and next move."
+    },
+    {
+      "id": "memory-packs",
+      "name": "Memory Packs",
+      "icon": "\u25a7",
+      "description": "Give your AI team useful context and specialist knowledge."
+    },
+    {
+      "id": "money-suite",
+      "name": "Lux Money Suite",
+      "icon": "\u2197",
+      "description": "A clearer view of your business plans and money questions."
+    },
+    {
+      "id": "business-launch",
+      "name": "Lux Business Launch OS",
+      "icon": "\u2727",
+      "description": "Turn the first idea into a more focused business plan."
+    },
+    {
+      "id": "lux-voice",
+      "name": "Lux Voice",
+      "icon": "\u25c9",
+      "description": "Prepare a voice assistant that sounds like your business."
+    }
+  ]
+}

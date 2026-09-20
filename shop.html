@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#07111f">
+  <meta name="description" content="Browse all Lux software, devices, Agent Packs, Prompt Kits and memberships.">
+  <title>Shop all — Lux Store</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body data-page="shop">
+  <div id="site-chrome"></div>
+  <main>
+    <section class="page-hero compact">
+      <span class="kicker">LUX STORE</span>
+      <h1>Shop the ecosystem.</h1>
+      <p>Browse devices, software, Agent Packs, Prompt Kits and memberships. Products without commissioned pricing are clearly marked.</p>
+    </section>
+    <section class="shop-shell section">
+      <aside class="shop-filters">
+        <div class="filter-title"><b>Filter</b><button id="clear-filters" type="button">Clear</button></div>
+        <fieldset><legend>Category</legend><div id="category-filters"></div></fieldset>
+        <fieldset><legend>Availability</legend>
+          <label><input type="checkbox" value="browse" data-availability> Browse now</label>
+          <label><input type="checkbox" value="prelaunch" data-availability> Prelaunch</label>
+        </fieldset>
+        <fieldset><legend>Release</legend>
+          <label><input type="checkbox" value="verified" data-release> Verified public kit</label>
+          <label><input type="checkbox" value="featured" data-release> Featured</label>
+        </fieldset>
+      </aside>
+      <div class="shop-main">
+        <div class="shop-toolbar">
+          <label class="shop-search"><span>⌕</span><input id="shop-search" type="search" placeholder="Search the Lux Store"></label>
+          <label class="sort-label">Sort
+            <select id="shop-sort"><option value="featured">Featured</option><option value="name-asc">Name A–Z</option><option value="name-desc">Name Z–A</option><option value="category">Category</option></select>
+          </label>
+          <span id="shop-count" aria-live="polite"></span>
+        </div>
+        <div class="active-filters" id="active-filters"></div>
+        <div class="shop-grid" id="shop-grid"></div>
+        <div class="empty-state" id="shop-empty" hidden><h2>No products match.</h2><p>Try clearing one of your filters.</p><button class="button primary" id="shop-reset" type="button">Show all products</button></div>
+      </div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+  <div id="bag-root"></div>
+  <script src="./app.js" defer></script>
+</body>
+</html>

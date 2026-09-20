@@ -1,10 +1,24 @@
 # Lux Store
 
-Public Lux Store storefront managed by Lux Codex.
+Public retail storefront for the Lux ecosystem, managed by Lux Codex and hosted on GitHub Pages.
 
-- `data/catalog.json` is the public catalog source of truth.
-- `assets/` contains approved public storefront art.
-- Lux Codex Kit Creator stages verified prompt kits into this catalog.
-- GitHub Actions publishes the static site to GitHub Pages on every push to `main`.
+## Customer surfaces
 
-The Codex store sync accepts Kit Creator contract-v2 packs only after both quality and verification status are PASS. Publishing remains traceable through Git history.
+- Home merchandising
+- Shop / collections with filters and sorting
+- Product detail pages
+- Prelaunch saved-items bag
+- Learn with Lux editorial guides
+- Help Center / FAQ
+
+## Publishing model
+
+`data/catalog.json` is the Store catalog. Lux Codex Kit Creator can publish new contract-v2 Prompt Kits through `sync-lux-store.mjs --publish` only after the required quality and Lux Verify gates pass.
+
+## Commerce status
+
+Public browsing is live. Pricing, payment, checkout and fulfillment remain intentionally disabled until commercial terms and fulfillment are commissioned. The bag stores items locally for comparison and does not place an order.
+
+## Deployment
+
+GitHub Actions validates `app.js` and the catalog, then publishes all HTML pages plus `assets/` and `data/` to GitHub Pages.

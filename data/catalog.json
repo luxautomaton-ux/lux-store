@@ -1,72 +1,199 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "managedBy": "Lux Codex",
+  "commerceStatus": "prelaunch",
   "products": [
     {
       "id": "desktop",
       "name": "Lux Agent Desktop",
       "category": "Software",
+      "family": "Core Software",
+      "badge": "Flagship",
       "tagline": "Your ideas. One powerful home.",
       "description": "Bring conversations, projects, voice and your AI tools into a personal workspace built around the way you work.",
       "images": [
         "assets/desktop-front.png",
         "assets/desktop-back.png"
       ],
+      "detailImage": "assets/lana-showroom.png",
       "features": [
         "Chat and voice workspace",
         "Projects, tools and AI profiles",
         "Lux ecosystem connections"
       ],
+      "specs": [
+        [
+          "Product type",
+          "Desktop AI workspace"
+        ],
+        [
+          "Role",
+          "Customer operating surface"
+        ],
+        [
+          "Works with",
+          "Lux ecosystem tools"
+        ],
+        [
+          "Commerce",
+          "Prelaunch"
+        ]
+      ],
+      "included": [
+        "Workspace and product surfaces",
+        "LANA interaction surfaces",
+        "Projects, tools and profile experiences"
+      ],
+      "priceLabel": "Pricing coming soon",
+      "availability": "browse",
+      "release": "featured",
+      "popular": true,
+      "new": false,
       "cta": "Explore workspace"
     },
     {
       "id": "usb",
       "name": "Lux Agent USB",
       "category": "Devices",
+      "family": "Portable AI",
+      "badge": "Featured device",
       "tagline": "Your AI. Anywhere.",
       "description": "A portable Lux workspace designed to keep your tools, files and AI setup close at hand.",
       "images": [
-        "assets/usb-front.png",
-        "assets/usb-back.png"
+        "assets/approved-usb-set.png",
+        "assets/approved-usb-device.png",
+        "assets/approved-usb-package.png"
       ],
+      "detailImage": "assets/luxagentusb-gold.png",
       "features": [
         "Portable Lux collection",
-        "Device setup and compatibility",
-        "Front and back retail packaging"
+        "Guided device setup and compatibility",
+        "Compact dual-connector hardware form"
       ],
+      "specs": [
+        [
+          "Product type",
+          "Portable Lux device"
+        ],
+        [
+          "Connector form",
+          "Dual-connector"
+        ],
+        [
+          "Setup",
+          "Guided through Lux"
+        ],
+        [
+          "Commerce",
+          "Prelaunch"
+        ]
+      ],
+      "included": [
+        "Lux portable workspace concept",
+        "Device setup guidance",
+        "Lux-branded customer experience"
+      ],
+      "priceLabel": "Pricing coming soon",
+      "availability": "prelaunch",
+      "release": "featured",
+      "popular": true,
+      "new": true,
       "cta": "Explore Lux USB"
     },
     {
       "id": "viewer",
       "name": "Lux Agent Viewer",
       "category": "Devices",
+      "family": "Companion AI",
+      "badge": "New",
       "tagline": "Your AI team. Always in view.",
       "description": "A compact companion display for keeping your Lux team, conversations and workspace in view.",
       "images": [
-        "assets/viewer-front.png",
-        "assets/viewer-back.png"
+        "assets/approved-viewer-set.png",
+        "assets/approved-viewer-device.png",
+        "assets/viewer-showcase.png"
       ],
+      "detailImage": "assets/viewer-showcase.png",
       "features": [
         "Compact companion display",
         "Team and workspace overview",
-        "Device connection and setup"
+        "Quick LANA and approval surface"
       ],
+      "specs": [
+        [
+          "Product type",
+          "Companion display"
+        ],
+        [
+          "Role",
+          "Status + interaction"
+        ],
+        [
+          "Setup",
+          "Lux-connected"
+        ],
+        [
+          "Commerce",
+          "Prelaunch"
+        ]
+      ],
+      "included": [
+        "Viewer customer experience",
+        "LANA interaction surface",
+        "Status and approval-oriented pages"
+      ],
+      "priceLabel": "Pricing coming soon",
+      "availability": "prelaunch",
+      "release": "featured",
+      "popular": true,
+      "new": true,
       "cta": "Explore Viewer"
     },
     {
       "id": "lux-3d-website-studio",
       "name": "3D Website Studio",
       "category": "Prompt Kits",
+      "family": "Creative Toolkit",
+      "badge": "Toolkit Club",
       "tagline": "Give your next website another dimension.",
       "description": "Creative direction, reusable prompts, skills and starter tracks for cinematic 3D website work.",
       "images": [
         "assets/kit-3d.png"
       ],
+      "detailImage": "assets/kit-3d.png",
       "features": [
         "Creative direction and master prompt",
         "Eight reusable Lux skills",
         "React Three Fiber and Three.js starter tracks"
       ],
+      "specs": [
+        [
+          "Product type",
+          "Digital Prompt Kit"
+        ],
+        [
+          "Format",
+          "Lux toolkit pack"
+        ],
+        [
+          "Use with",
+          "LANA / Lux workspace"
+        ],
+        [
+          "Public gate",
+          "Legacy approved listing"
+        ]
+      ],
+      "included": [
+        "Master prompt",
+        "Reusable skills",
+        "Starter tracks and examples"
+      ],
+      "priceLabel": "Individual + Club pricing soon",
+      "availability": "browse",
+      "release": "legacy",
+      "popular": true,
+      "new": false,
       "cta": "Explore toolkit",
       "source": "Lux Codex Kit Creator"
     },
@@ -74,16 +201,47 @@
       "id": "lux-motionframe-studio",
       "name": "MotionFrame Studio",
       "category": "Prompt Kits",
+      "family": "Creative Toolkit",
+      "badge": "Toolkit Club",
       "tagline": "Build websites that move people.",
       "description": "A Lux AI Toolkit Club pack for scroll stories, frame sequences and interactive 3D experiences.",
       "images": [
         "assets/kit-motion.png"
       ],
+      "detailImage": "assets/kit-motion.png",
       "features": [
         "Twenty ready-to-adapt prompts",
         "Eight original visual and workflow skills",
         "Frame sequences, GLB and Next.js workflows"
       ],
+      "specs": [
+        [
+          "Product type",
+          "Digital Prompt Kit"
+        ],
+        [
+          "Format",
+          "Lux toolkit pack"
+        ],
+        [
+          "Use with",
+          "LANA / Lux workspace"
+        ],
+        [
+          "Public gate",
+          "Legacy approved listing"
+        ]
+      ],
+      "included": [
+        "Prompt library",
+        "Original skills",
+        "Motion and 3D workflow starters"
+      ],
+      "priceLabel": "Individual + Club pricing soon",
+      "availability": "browse",
+      "release": "legacy",
+      "popular": false,
+      "new": false,
       "cta": "Explore toolkit",
       "source": "Lux Codex Kit Creator"
     }
@@ -92,56 +250,182 @@
     {
       "id": "toolkit-club",
       "name": "Lux AI Toolkit Club",
-      "icon": "\u25c8",
-      "description": "Creative prompt kits, member offers and a growing toolkit collection."
+      "category": "Memberships",
+      "badge": "Membership",
+      "icon": "◈",
+      "description": "Creative prompt kits, member offers and a growing toolkit collection.",
+      "priceLabel": "Pricing coming soon",
+      "availability": "prelaunch",
+      "release": "featured",
+      "popular": true
     },
     {
       "id": "agent-builder",
       "name": "Lux Agent Builder",
-      "icon": "\u2726",
-      "description": "Give your next AI teammate a role, a voice and a purpose."
+      "category": "Software",
+      "badge": "Build your team",
+      "icon": "✦",
+      "description": "Give your next AI teammate a role, a voice and a purpose.",
+      "priceLabel": "Pricing coming soon",
+      "availability": "browse",
+      "release": "featured",
+      "popular": true
     },
     {
       "id": "lux-flow",
       "name": "Lux Flow",
-      "icon": "\u2197",
-      "description": "Make your best process repeatable, from trigger to handoff."
+      "category": "Software",
+      "badge": "Workflow",
+      "icon": "↗",
+      "description": "Make your best process repeatable, from trigger to handoff.",
+      "priceLabel": "Pricing coming soon",
+      "availability": "browse",
+      "release": "featured",
+      "popular": true
     },
     {
       "id": "ai-team-plus",
       "name": "AI Team Plus",
-      "icon": "\u25ce",
-      "description": "Bring complementary AI roles together around your work."
+      "category": "Memberships",
+      "badge": "Team",
+      "icon": "◎",
+      "description": "Bring complementary AI roles together around your work.",
+      "priceLabel": "Pricing coming soon",
+      "availability": "prelaunch",
+      "release": "standard",
+      "popular": false
     },
     {
       "id": "success-packs",
       "name": "Success Packs",
-      "icon": "\u25c7",
-      "description": "Focused business playbooks for your industry and next move."
+      "category": "Agent Packs",
+      "badge": "Playbooks",
+      "icon": "◇",
+      "description": "Focused business playbooks for your industry and next move.",
+      "priceLabel": "Pricing coming soon",
+      "availability": "prelaunch",
+      "release": "standard",
+      "popular": false
     },
     {
       "id": "memory-packs",
       "name": "Memory Packs",
-      "icon": "\u25a7",
-      "description": "Give your AI team useful context and specialist knowledge."
+      "category": "Agent Packs",
+      "badge": "Context",
+      "icon": "▧",
+      "description": "Give your AI team useful context and specialist knowledge.",
+      "priceLabel": "Pricing coming soon",
+      "availability": "prelaunch",
+      "release": "standard",
+      "popular": false
     },
     {
       "id": "money-suite",
       "name": "Lux Money Suite",
-      "icon": "\u2197",
-      "description": "A clearer view of your business plans and money questions."
+      "category": "Software",
+      "badge": "Business",
+      "icon": "↗",
+      "description": "A clearer view of your business plans and money questions.",
+      "priceLabel": "Pricing coming soon",
+      "availability": "browse",
+      "release": "standard",
+      "popular": false
     },
     {
       "id": "business-launch",
       "name": "Lux Business Launch OS",
-      "icon": "\u2727",
-      "description": "Turn the first idea into a more focused business plan."
+      "category": "Software",
+      "badge": "Launch",
+      "icon": "✧",
+      "description": "Turn the first idea into a more focused business plan.",
+      "priceLabel": "Pricing coming soon",
+      "availability": "browse",
+      "release": "standard",
+      "popular": false
     },
     {
       "id": "lux-voice",
       "name": "Lux Voice",
-      "icon": "\u25c9",
-      "description": "Prepare a voice assistant that sounds like your business."
+      "category": "Software",
+      "badge": "Voice",
+      "icon": "◉",
+      "description": "Prepare a voice assistant that sounds like your business.",
+      "priceLabel": "Pricing coming soon",
+      "availability": "prelaunch",
+      "release": "standard",
+      "popular": false
+    }
+  ],
+  "guides": [
+    {
+      "id": "agents",
+      "title": "Models vs. agents",
+      "eyebrow": "AI BASICS",
+      "summary": "Understand the difference between intelligence and an agent that can operate inside a workflow."
+    },
+    {
+      "id": "verify",
+      "title": "What Lux Verify means",
+      "eyebrow": "PROOF",
+      "summary": "See how quality evidence and verification gates fit into public Lux releases."
+    },
+    {
+      "id": "portable",
+      "title": "Portable AI, explained",
+      "eyebrow": "DEVICES",
+      "summary": "How the Lux Agent USB fits into a workspace that moves between machines and environments."
+    },
+    {
+      "id": "packs",
+      "title": "Agent Packs vs. Prompt Kits",
+      "eyebrow": "CHOOSING",
+      "summary": "Pick the right kind of packaged intelligence for a role, workflow or creative project."
+    },
+    {
+      "id": "flow",
+      "title": "From idea to workflow",
+      "eyebrow": "AUTOMATION",
+      "summary": "How Lux Flow turns repeatable work into steps, reviews and handoffs."
+    },
+    {
+      "id": "viewer-guide",
+      "title": "Why a companion display?",
+      "eyebrow": "VIEWER",
+      "summary": "Where the Lux Agent Viewer fits when you want status, approvals and LANA close at hand."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can I buy from the Lux Store today?",
+      "a": "The Store is live for browsing, comparing and saving items. Payment, final pricing and fulfillment remain disabled until those commercial systems are commissioned."
+    },
+    {
+      "q": "Does adding something to the bag charge me?",
+      "a": "No. The current bag is a prelaunch saved-items list. It never collects payment information and does not place an order."
+    },
+    {
+      "q": "What does Lux Verify PASS mean on a Store item?",
+      "a": "For new Kit Creator public releases, it means the required quality and verification fields and evidence passed the Store publishing gate. It is not a promise that every external service or future environment will behave identically."
+    },
+    {
+      "q": "Why do the older Prompt Kits say legacy approved listing?",
+      "a": "They were already approved Store products before the newer contract-v2 publishing gate existed. They are not being relabeled as having passed a test they did not run."
+    },
+    {
+      "q": "How do I get help with an installed Lux product?",
+      "a": "Use the Help & Legal or support area inside Lux Agent Desktop so guidance can match the edition and setup you are actually running."
+    },
+    {
+      "q": "Will devices have exact storage, speed and compatibility specs here?",
+      "a": "Yes, but only after the customer SKU and fulfillment configuration are locked. The Store avoids inventing hardware specifications before that point."
+    },
+    {
+      "q": "How are new Prompt Kits published?",
+      "a": "Lux Codex Kit Creator prepares the pack and its release assets. New public contract-v2 packs must clear the quality and Lux Verify publishing gate before the Store sync can publish them."
+    },
+    {
+      "q": "Is Lux Codex a customer product?",
+      "a": "Lux Codex is the private founder control plane for operating the Lux business and Store. Customers use Lux Agent Desktop and the customer-facing Lux ecosystem."
     }
   ]
 }

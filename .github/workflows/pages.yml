@@ -23,10 +23,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
+      - name: Validate static store
+        run: |
+          node --check app.js
+          python3 -m json.tool data/catalog.json >/dev/null
       - name: Prepare static site
         run: |
           mkdir -p _site
-          cp index.html 404.html styles.css app.js .nojekyll _site/
+          cp *.html styles.css app.js .nojekyll _site/
           cp -R data assets _site/
       - uses: actions/upload-pages-artifact@v3
         with:

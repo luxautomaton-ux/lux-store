@@ -1,35 +1,105 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#07111f">
-<meta name="description" content="Lux Store — software, devices, prompt kits and AI business tools from Lux Automaton.">
-<title>Lux Store — Lux Automaton</title><link rel="stylesheet" href="./styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#07111f">
+  <meta name="description" content="Shop the Lux ecosystem: AI software, portable devices, Agent Packs, verified prompt kits and memberships.">
+  <title>Lux Store — AI software, devices and verified kits</title>
+  <link rel="stylesheet" href="./styles.css">
 </head>
-<body>
-<header class="topbar">
-<a class="brand" href="#top" aria-label="Lux Store home"><strong>LUX</strong><span>STORE</span><i></i></a>
-<nav aria-label="Store navigation"><button data-filter="All products">Products</button><button data-filter="Prompt Kits">Prompt Kits</button><a href="#offers">Subscriptions</a></nav>
-<span class="managed">Managed by Lux Codex</span>
-</header>
-<main id="top">
-<section class="hero"><img class="hero-scene" src="./assets/lana-showroom.png" alt=""><div class="hero-shade"></div>
-<div class="hero-copy"><span class="eyebrow">LUX AUTOMATON COLLECTION</span><h1>Your next<br>big thing.<br><em>Starts here.</em></h1>
-<p>Software, devices and verified creative kits built to help people move from idea to useful work faster.</p>
-<div class="hero-actions"><button class="primary" data-filter="All products">Shop the collection <span>↗</span></button><button class="secondary" data-filter="Prompt Kits">Discover Prompt Kits →</button></div></div>
-<div class="hero-badge"><span>◉</span><div><b>LUX STORE</b><small>Published from Lux Codex</small></div></div></section>
-<section class="service-strip"><span><b>SOFTWARE</b> Workspaces that work with you</span><span><b>DEVICES</b> Lux hardware and companions</span><span><b>PROMPT KITS</b> Verified kits built in Codex</span></section>
-<section class="collection" id="collection"><div class="section-heading"><div><span class="eyebrow">FIND YOUR NEXT UPGRADE</span><h2>The Lux collection.</h2></div>
-<label class="search"><span>⌕</span><input id="search" type="search" placeholder="Find a product or prompt kit" aria-label="Search Lux Store"></label></div>
-<div class="filters" role="group" aria-label="Product categories"><button class="active" data-filter="All products">All products</button><button data-filter="Software">Software</button><button data-filter="Devices">Devices</button><button data-filter="Prompt Kits">Prompt Kits</button><span id="count" aria-live="polite"></span></div>
-<div class="grid" id="products"></div><div class="empty" id="empty" hidden><h3>No products found.</h3><p>Try another search or show the full collection.</p><button class="primary" data-filter="All products">Show all products</button></div></section>
-<section class="promo"><img src="./assets/builder-banner.png" alt=""><div><span class="eyebrow">LUX AGENT BUILDER</span><h2>Don't just use AI.<br>Build your team.</h2><p>Give each role a purpose, personality and the knowledge it needs to help.</p><a class="primary" href="#offers">Explore Agent Builder ↗</a></div></section>
-<section class="club"><div><span class="eyebrow">LUX AI TOOLKIT CLUB</span><h2>Less blank page.<br><em>More possibility.</em></h2><p>Lux Codex Kit Creator turns a useful idea, website or video into an original, verified pack with prompts, skills, workflows and branded artwork.</p><button class="primary" data-filter="Prompt Kits">Browse Prompt Kits ↗</button><small>New verified packs can be added from Lux Codex without rebuilding the storefront by hand.</small></div>
-<div class="kit-stack"><img src="./assets/kit-3d.png" alt="3D Website Studio cover"><img src="./assets/kit-motion.png" alt="MotionFrame Studio cover"></div></section>
-<section class="promo"><img src="./assets/flow-banner.png" alt=""><div><span class="eyebrow">LUX FLOW</span><h2>Great work.<br>On repeat.</h2><p>Turn the way you work into a clear flow with review points, handoffs and repeatable steps.</p><a class="primary" href="#offers">Discover Lux Flow ↗</a></div></section>
-<section class="offers-section" id="offers"><div class="section-heading"><div><span class="eyebrow">ROOM TO GROW</span><h2>Find your Lux advantage.</h2></div><p>Explore memberships, subscriptions and add-ons. Checkout stays separate until each offer is ready for sale.</p></div><div class="offers" id="offer-grid"></div></section>
-</main>
-<footer><div class="brand"><strong>LUX</strong><span>AUTOMATON</span><i></i></div><p>Your AI. Your ambition. Your next move.</p><a href="#top">Back to top ↑</a></footer>
-<dialog id="product-dialog"><button class="close" aria-label="Close product details">×</button><div class="dialog-grid"><div class="gallery"><img id="dialog-image" alt=""><div id="gallery-tabs" class="gallery-tabs"></div></div><div class="details"><span id="dialog-category" class="eyebrow"></span><h2 id="dialog-title"></h2><p id="dialog-description"></p><ul id="dialog-features"></ul><div class="detail-note">Current pricing and purchase options will appear here when enabled. Browsing does not start a subscription.</div></div></div></dialog>
-<script src="./app.js" defer></script>
-</body></html>
+<body data-page="home">
+  <div id="site-chrome"></div>
+  <main>
+    <section class="retail-hero">
+      <div class="retail-hero-copy">
+        <span class="kicker">LUX AGENT USB · PORTABLE AI</span>
+        <h1>Your AI.<br><em>Anywhere.</em></h1>
+        <p>Carry your Lux workspace, tools and setup in a compact dual-connector device built for work that moves with you.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="./product.html?id=usb">Explore Lux Agent USB ↗</a>
+          <a class="button ghost" href="./shop.html?category=Devices">Shop devices</a>
+        </div>
+        <div class="hero-proof"><span>Portable workspace</span><span>Guided setup</span><span>Lux ecosystem ready</span></div>
+      </div>
+      <div class="retail-hero-media">
+        <img src="./assets/approved-usb-set.png" alt="Lux Agent USB product set">
+        <div class="product-float"><span>FEATURED DEVICE</span><b>Lux Agent USB</b><small>Pricing will appear when fulfillment is commissioned.</small></div>
+      </div>
+    </section>
+
+    <section class="lineup section">
+      <div class="section-head"><div><span class="kicker">SHOP BY CATEGORY</span><h2>Explore the Lux lineup.</h2></div><a href="./shop.html">Shop all →</a></div>
+      <div class="category-grid" id="category-grid"></div>
+    </section>
+
+    <section class="merch section">
+      <div class="section-head"><div><span class="kicker">CUSTOMER FAVORITES</span><h2>Most popular.</h2></div><a href="./shop.html?sort=featured">View all →</a></div>
+      <div class="product-rail" id="popular-rail"></div>
+    </section>
+
+    <section class="feature-split usb-feature">
+      <div class="feature-media"><img src="./assets/approved-usb-device.png" alt="Lux Agent USB dual-connector device"></div>
+      <div class="feature-copy"><span class="kicker">WORK ANYWHERE</span><h2>Small device.<br>Big Lux workspace.</h2><p>The portable edition is designed around a compact dual-connector form, with setup and compatibility handled through the Lux ecosystem.</p>
+        <div class="spec-chips"><span>USB-C + USB form</span><span>Portable Lux setup</span><span>Customer-ready workflow</span></div>
+        <a class="button primary" href="./product.html?id=usb">See product details ↗</a>
+      </div>
+    </section>
+
+    <section class="merch section dark-merch">
+      <div class="section-head"><div><span class="kicker">NEXT GEN TECH</span><h2>Build your Lux stack.</h2></div><a href="./shop.html?sort=featured">View all →</a></div>
+      <div class="product-rail" id="nextgen-rail"></div>
+    </section>
+
+    <section class="viewer-story">
+      <div class="viewer-copy"><span class="kicker">LUX AGENT VIEWER</span><h2>Your AI team.<br>Always in view.</h2><p>A compact companion for status, conversations, approvals and the moments when you want LANA close without opening your whole workspace.</p><a class="button light" href="./product.html?id=viewer">Explore Viewer ↗</a></div>
+      <img src="./assets/viewer-showcase.png" alt="Lux Agent Viewer on a desk">
+    </section>
+
+    <section class="proof section">
+      <div class="section-head"><div><span class="kicker">WHY LUX</span><h2>Built around proof, not promises.</h2></div></div>
+      <div class="proof-grid">
+        <article><b>01</b><h3>Lux Verify gate</h3><p>New public Kit Creator packs are blocked from Store publishing until required quality and verification evidence passes.</p></article>
+        <article><b>02</b><h3>Human approval</h3><p>Lux is designed to show what the agent plans and did, keeping important decisions with the person using it.</p></article>
+        <article><b>03</b><h3>Local-first options</h3><p>Core Lux workflows can use local tools and models when configured, with cloud services added deliberately.</p></article>
+        <article><b>04</b><h3>Traceable releases</h3><p>The public Store is published from versioned Git history and managed through Lux Codex.</p></article>
+      </div>
+    </section>
+
+    <section class="goal-shop section">
+      <div class="section-head"><div><span class="kicker">SHOP BY GOAL</span><h2>Start with what you want to do.</h2></div></div>
+      <div class="goal-grid">
+        <a href="./product.html?id=desktop"><span>RUN YOUR AI WORKSPACE</span><b>Lux Agent Desktop</b><small>Chat, voice, projects and tools in one home.</small></a>
+        <a href="./shop.html?category=Agent%20Packs"><span>BUILD YOUR AI TEAM</span><b>Agent Packs</b><small>Roles, context and playbooks built around a job.</small></a>
+        <a href="./shop.html?q=Lux%20Flow"><span>AUTOMATE THE WORK</span><b>Lux Flow</b><small>Turn repeatable work into a reviewed workflow.</small></a>
+        <a href="./product.html?id=usb"><span>WORK ANYWHERE</span><b>Lux Agent USB</b><small>Take the Lux experience with you.</small></a>
+      </div>
+    </section>
+
+    <section class="kits section">
+      <div class="section-head"><div><span class="kicker">LUX AI TOOLKIT CLUB</span><h2>Less blank page. More possibility.</h2></div><a href="./shop.html?category=Prompt%20Kits">Browse kits →</a></div>
+      <div class="kit-feature">
+        <div class="kit-stack"><img src="./assets/kit-3d.png" alt="3D Website Studio toolkit cover"><img src="./assets/kit-motion.png" alt="MotionFrame Studio toolkit cover"></div>
+        <div><h3>Verified creative starting points.</h3><p>Prompt Kits package useful prompts, skills, scripts, templates and workflows into something you can actually use with LANA.</p><ul><li>Original Lux instructions and examples</li><li>Branded cover and card art</li><li>Quality and verification evidence for new public releases</li></ul><a class="button primary" href="./shop.html?category=Prompt%20Kits">Explore Prompt Kits ↗</a></div>
+      </div>
+    </section>
+
+    <section class="learn-strip section">
+      <div class="section-head"><div><span class="kicker">LEARN WITH LUX</span><h2>Know what you’re buying.</h2></div><a href="./learn.html">View all guides →</a></div>
+      <div class="editorial-grid" id="editorial-grid"></div>
+    </section>
+
+    <section class="faq-preview section">
+      <div><span class="kicker">NEED HELP?</span><h2>Questions before you choose?</h2><p>See setup, compatibility, Store status and purchasing answers in the Lux Help Center.</p><a class="button primary" href="./support.html">Open Help Center ↗</a></div>
+      <div class="faq-mini">
+        <details><summary>Can I buy from the Store today?</summary><p>The public Store is live for browsing. Payment and fulfillment stay disabled until pricing, terms and delivery are commissioned.</p></details>
+        <details><summary>How do Prompt Kits reach the Store?</summary><p>New public Kit Creator packs must clear the Lux quality and Verify publishing gate before they can be synced to the Store.</p></details>
+        <details><summary>Where do I manage Lux products?</summary><p>Customers use Lux Agent Desktop. Lux Codex is the private founder control plane for Store publishing and product operations.</p></details>
+      </div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+  <div id="bag-root"></div>
+  <script src="./app.js" defer></script>
+</body>
+</html>

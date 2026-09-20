@@ -784,6 +784,60 @@
       "popular": false,
       "new": true,
       "cta": "Preview software"
+    },
+    {
+      "id": "agent-builder",
+      "name": "Lux Agent Builder",
+      "category": "Software",
+      "family": "Agent Creation Platform",
+      "badge": "Coming Soon",
+      "tagline": "Ideas. Agents. Real results.",
+      "description": "Build, customize and prepare AI agents and workflows for deployment across the Lux ecosystem.",
+      "images": [
+        "assets/software-coming-soon.webp"
+      ],
+      "features": [
+        "Build AI agents",
+        "Customize workflows",
+        "Deployment preparation",
+        "Scale reusable agent systems"
+      ],
+      "specs": [
+        [
+          "Product type",
+          "Agent Creation Platform"
+        ],
+        [
+          "Status",
+          "Coming Soon"
+        ],
+        [
+          "Estimated launch price",
+          "$49/mo est."
+        ],
+        [
+          "Estimated standalone value",
+          "$2,400/yr value"
+        ],
+        [
+          "Commerce",
+          "Prelaunch \u2014 no payment"
+        ]
+      ],
+      "included": [
+        "Agent creation workspace",
+        "Workflow customization",
+        "Deployment preparation",
+        "Lux ecosystem integration"
+      ],
+      "priceLabel": "$49/mo est. \u00b7 $2,400/yr value",
+      "estimatedPrice": "$49/mo est.",
+      "estimatedValue": "$2,400/yr value",
+      "availability": "prelaunch",
+      "release": "coming-soon",
+      "popular": true,
+      "new": true,
+      "cta": "Preview software"
     }
   ],
   "offers": [

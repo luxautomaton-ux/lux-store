@@ -244,6 +244,546 @@
       "new": false,
       "cta": "Explore toolkit",
       "source": "Lux Codex Kit Creator"
+    },
+    {
+      "id": "money-suite-os",
+      "name": "Lux Money Suite OS",
+      "category": "Software",
+      "family": "Business Finance OS",
+      "badge": "Coming Soon",
+      "tagline": "Run your money workflow at a glance.",
+      "description": "Invoicing, cash flow, payments and business reporting in one finance workspace.",
+      "images": [
+        "assets/software-coming-soon.webp"
+      ],
+      "features": [
+        "Invoicing workflows",
+        "Cash-flow tracking",
+        "Payments workspace",
+        "Business reports"
+      ],
+      "specs": [
+        [
+          "Product type",
+          "Business Finance OS"
+        ],
+        [
+          "Status",
+          "Coming Soon"
+        ],
+        [
+          "Estimated launch price",
+          "$49/mo est."
+        ],
+        [
+          "Estimated standalone value",
+          "$2,400/yr value"
+        ],
+        [
+          "Commerce",
+          "Prelaunch \u2014 no payment"
+        ]
+      ],
+      "included": [
+        "Invoicing workflows",
+        "Cash-flow tracking",
+        "Payments workspace",
+        "Business reports"
+      ],
+      "priceLabel": "$49/mo est. \u00b7 $2,400/yr value",
+      "estimatedPrice": "$49/mo est.",
+      "estimatedValue": "$2,400/yr value",
+      "availability": "prelaunch",
+      "release": "coming-soon",
+      "popular": false,
+      "new": true,
+      "cta": "Preview software"
+    },
+    {
+      "id": "career-os",
+      "name": "Lux Career OS",
+      "category": "Software",
+      "family": "Career Operating System",
+      "badge": "Coming Soon",
+      "tagline": "Your next career move, organized.",
+      "description": "Job discovery, resume readiness, interview prep, networking and career growth in one workspace.",
+      "images": [
+        "assets/software-coming-soon.webp"
+      ],
+      "features": [
+        "Job search and discovery",
+        "Resume readiness",
+        "Interview preparation",
+        "Career growth tools"
+      ],
+      "specs": [
+        [
+          "Product type",
+          "Career Operating System"
+        ],
+        [
+          "Status",
+          "Coming Soon"
+        ],
+        [
+          "Estimated launch price",
+          "$29/mo est."
+        ],
+        [
+          "Estimated standalone value",
+          "$1,500/yr value"
+        ],
+        [
+          "Commerce",
+          "Prelaunch \u2014 no payment"
+        ]
+      ],
+      "included": [
+        "Job search and discovery",
+        "Resume readiness",
+        "Interview preparation",
+        "Career growth tools"
+      ],
+      "priceLabel": "$29/mo est. \u00b7 $1,500/yr value",
+      "estimatedPrice": "$29/mo est.",
+      "estimatedValue": "$1,500/yr value",
+      "availability": "prelaunch",
+      "release": "coming-soon",
+      "popular": false,
+      "new": true,
+      "cta": "Preview software"
+    },
+    {
+      "id": "lux-security",
+      "name": "Lux Security",
+      "category": "Software",
+      "family": "AI-Powered Protection",
+      "badge": "Coming Soon",
+      "tagline": "Intelligence meets security.",
+      "description": "Lux protection center for privacy, data security, monitoring and defensive workflows.",
+      "images": [
+        "assets/software-coming-soon.webp"
+      ],
+      "features": [
+        "Security center",
+        "Privacy protection",
+        "Data protection",
+        "Monitoring workflows"
+      ],
+      "specs": [
+        [
+          "Product type",
+          "AI-Powered Protection"
+        ],
+        [
+          "Status",
+          "Coming Soon"
+        ],
+        [
+          "Estimated launch price",
+          "Included with Lux Agent Desktop / USB"
+        ],
+        [
+          "Estimated standalone value",
+          "$1,200/yr value"
+        ],
+        [
+          "Commerce",
+          "Prelaunch \u2014 no payment"
+        ]
+      ],
+      "included": [
+        "Security center",
+        "Privacy protection",
+        "Data protection",
+        "Monitoring workflows"
+      ],
+      "priceLabel": "Included with Lux Agent Desktop / USB \u00b7 $1,200/yr value",
+      "estimatedPrice": "Included with Lux Agent Desktop / USB",
+      "estimatedValue": "$1,200/yr value",
+      "availability": "prelaunch",
+      "release": "coming-soon",
+      "popular": false,
+      "new": true,
+      "cta": "Preview software"
+    },
+    {
+      "id": "lux-ip-shield",
+      "name": "Lux IP Shield",
+      "category": "Software",
+      "family": "IP Protection",
+      "badge": "Coming Soon",
+      "tagline": "Your ideas, secured.",
+      "description": "Protect source code, apps, agent packs, prompts and digital distribution with Lux protection workflows.",
+      "images": [
+        "assets/software-coming-soon.webp"
+      ],
+      "features": [
+        "Code and app protection",
+        "Tamper and licensing controls",
+        "Build attestation",
+        "Distribution hardening"
+      ],
+      "specs": [
+        [
+          "Product type",
+          "IP Protection"
+        ],
+        [
+          "Status",
+          "Coming Soon"
+        ],
+        [
+          "Estimated launch price",
+          "$79/mo est."
+        ],
+        [
+          "Estimated standalone value",
+          "$3,000/yr value"
+        ],
+        [
+          "Commerce",
+          "Prelaunch \u2014 no payment"
+        ]
+      ],
+      "included": [
+        "Code and app protection",
+        "Tamper and licensing controls",
+        "Build attestation",
+        "Distribution hardening"
+      ],
+      "priceLabel": "$79/mo est. \u00b7 $3,000/yr value",
+      "estimatedPrice": "$79/mo est.",
+      "estimatedValue": "$3,000/yr value",
+      "availability": "prelaunch",
+      "release": "coming-soon",
+      "popular": false,
+      "new": true,
+      "cta": "Preview software"
+    },
+    {
+      "id": "law-ai-check",
+      "name": "Lux Law AI Check",
+      "category": "Software",
+      "family": "Legal & Compliance AI",
+      "badge": "Coming Soon",
+      "tagline": "Faster compliance. Stronger protection.",
+      "description": "AI-assisted policy analysis, compliance checks, risk detection and regulatory guidance workflows.",
+      "images": [
+        "assets/software-coming-soon.webp"
+      ],
+      "features": [
+        "Policy analysis",
+        "Compliance checks",
+        "Risk detection",
+        "Regulatory guidance"
+      ],
+      "specs": [
+        [
+          "Product type",
+          "Legal & Compliance AI"
+        ],
+        [
+          "Status",
+          "Coming Soon"
+        ],
+        [
+          "Estimated launch price",
+          "$99/mo est."
+        ],
+        [
+          "Estimated standalone value",
+          "$4,800/yr value"
+        ],
+        [
+          "Commerce",
+          "Prelaunch \u2014 no payment"
+        ]
+      ],
+      "included": [
+        "Policy analysis",
+        "Compliance checks",
+        "Risk detection",
+        "Regulatory guidance"
+      ],
+      "priceLabel": "$99/mo est. \u00b7 $4,800/yr value",
+      "estimatedPrice": "$99/mo est.",
+      "estimatedValue": "$4,800/yr value",
+      "availability": "prelaunch",
+      "release": "coming-soon",
+      "popular": false,
+      "new": true,
+      "cta": "Preview software"
+    },
+    {
+      "id": "business-launch-os",
+      "name": "Lux AI Business Launch OS",
+      "category": "Software",
+      "family": "Founder Operating System",
+      "badge": "Coming Soon",
+      "tagline": "Idea to income, faster.",
+      "description": "Plan a business, build go-to-market systems, automate growth and organize client revenue workflows.",
+      "images": [
+        "assets/software-coming-soon.webp"
+      ],
+      "features": [
+        "Business idea planner",
+        "Go-to-market systems",
+        "Growth automation",
+        "Client and revenue workflows"
+      ],
+      "specs": [
+        [
+          "Product type",
+          "Founder Operating System"
+        ],
+        [
+          "Status",
+          "Coming Soon"
+        ],
+        [
+          "Estimated launch price",
+          "$59/mo est."
+        ],
+        [
+          "Estimated standalone value",
+          "$3,600/yr value"
+        ],
+        [
+          "Commerce",
+          "Prelaunch \u2014 no payment"
+        ]
+      ],
+      "included": [
+        "Business idea planner",
+        "Go-to-market systems",
+        "Growth automation",
+        "Client and revenue workflows"
+      ],
+      "priceLabel": "$59/mo est. \u00b7 $3,600/yr value",
+      "estimatedPrice": "$59/mo est.",
+      "estimatedValue": "$3,600/yr value",
+      "availability": "prelaunch",
+      "release": "coming-soon",
+      "popular": false,
+      "new": true,
+      "cta": "Preview software"
+    },
+    {
+      "id": "warm-connect",
+      "name": "Lux Warm Connect",
+      "category": "Software",
+      "family": "Relationship OS",
+      "badge": "Coming Soon",
+      "tagline": "People. Opportunities. Real relationships.",
+      "description": "Relationship intelligence for finding people, organizing outreach, scheduling and building lasting connections.",
+      "images": [
+        "assets/software-coming-soon.webp"
+      ],
+      "features": [
+        "Find and connect",
+        "AI outreach",
+        "Schedule and manage",
+        "Relationship intelligence"
+      ],
+      "specs": [
+        [
+          "Product type",
+          "Relationship OS"
+        ],
+        [
+          "Status",
+          "Coming Soon"
+        ],
+        [
+          "Estimated launch price",
+          "$39/mo est."
+        ],
+        [
+          "Estimated standalone value",
+          "$2,400/yr value"
+        ],
+        [
+          "Commerce",
+          "Prelaunch \u2014 no payment"
+        ]
+      ],
+      "included": [
+        "Find and connect",
+        "AI outreach",
+        "Schedule and manage",
+        "Relationship intelligence"
+      ],
+      "priceLabel": "$39/mo est. \u00b7 $2,400/yr value",
+      "estimatedPrice": "$39/mo est.",
+      "estimatedValue": "$2,400/yr value",
+      "availability": "prelaunch",
+      "release": "coming-soon",
+      "popular": false,
+      "new": true,
+      "cta": "Preview software"
+    },
+    {
+      "id": "lana-reader",
+      "name": "LANA Reader",
+      "category": "Software",
+      "family": "Document Intelligence",
+      "badge": "Coming Soon",
+      "tagline": "Know more. Faster.",
+      "description": "A PDF and document workspace for reading, summaries, search, notes and actionable insights.",
+      "images": [
+        "assets/software-coming-soon.webp"
+      ],
+      "features": [
+        "Read and understand",
+        "AI summaries",
+        "Document search",
+        "Notes and insights"
+      ],
+      "specs": [
+        [
+          "Product type",
+          "Document Intelligence"
+        ],
+        [
+          "Status",
+          "Coming Soon"
+        ],
+        [
+          "Estimated launch price",
+          "$19/mo est."
+        ],
+        [
+          "Estimated standalone value",
+          "$900/yr value"
+        ],
+        [
+          "Commerce",
+          "Prelaunch \u2014 no payment"
+        ]
+      ],
+      "included": [
+        "Read and understand",
+        "AI summaries",
+        "Document search",
+        "Notes and insights"
+      ],
+      "priceLabel": "$19/mo est. \u00b7 $900/yr value",
+      "estimatedPrice": "$19/mo est.",
+      "estimatedValue": "$900/yr value",
+      "availability": "prelaunch",
+      "release": "coming-soon",
+      "popular": false,
+      "new": true,
+      "cta": "Preview software"
+    },
+    {
+      "id": "lux-verify",
+      "name": "Lux Verify",
+      "category": "Software",
+      "family": "Verification & Trust",
+      "badge": "Coming Soon",
+      "tagline": "Audit. Verify. Trust.",
+      "description": "Evidence-driven verification, compliance audits, identity checks and risk assessment for Lux workflows.",
+      "images": [
+        "assets/software-coming-soon.webp"
+      ],
+      "features": [
+        "Verification evidence",
+        "Compliance audits",
+        "Risk assessment",
+        "Trust workflows"
+      ],
+      "specs": [
+        [
+          "Product type",
+          "Verification & Trust"
+        ],
+        [
+          "Status",
+          "Coming Soon"
+        ],
+        [
+          "Estimated launch price",
+          "$79/mo est."
+        ],
+        [
+          "Estimated standalone value",
+          "$4,800/yr value"
+        ],
+        [
+          "Commerce",
+          "Prelaunch \u2014 no payment"
+        ]
+      ],
+      "included": [
+        "Verification evidence",
+        "Compliance audits",
+        "Risk assessment",
+        "Trust workflows"
+      ],
+      "priceLabel": "$79/mo est. \u00b7 $4,800/yr value",
+      "estimatedPrice": "$79/mo est.",
+      "estimatedValue": "$4,800/yr value",
+      "availability": "prelaunch",
+      "release": "coming-soon",
+      "popular": false,
+      "new": true,
+      "cta": "Preview software"
+    },
+    {
+      "id": "ai-toolkit-club-software",
+      "name": "Lux AI Toolkit Club",
+      "category": "Software",
+      "family": "Creator Toolkit",
+      "badge": "Coming Soon",
+      "tagline": "Tools. Templates. Training. Together.",
+      "description": "A growing collection of tools, templates, training and member resources for creators and AI builders.",
+      "images": [
+        "assets/software-coming-soon.webp"
+      ],
+      "features": [
+        "Exclusive tools",
+        "Ready-to-use templates",
+        "Step-by-step training",
+        "Member resources"
+      ],
+      "specs": [
+        [
+          "Product type",
+          "Creator Toolkit"
+        ],
+        [
+          "Status",
+          "Coming Soon"
+        ],
+        [
+          "Estimated launch price",
+          "$29/mo est."
+        ],
+        [
+          "Estimated standalone value",
+          "$1,800/yr value"
+        ],
+        [
+          "Commerce",
+          "Prelaunch \u2014 no payment"
+        ]
+      ],
+      "included": [
+        "Exclusive tools",
+        "Ready-to-use templates",
+        "Step-by-step training",
+        "Member resources"
+      ],
+      "priceLabel": "$29/mo est. \u00b7 $1,800/yr value",
+      "estimatedPrice": "$29/mo est.",
+      "estimatedValue": "$1,800/yr value",
+      "availability": "prelaunch",
+      "release": "coming-soon",
+      "popular": false,
+      "new": true,
+      "cta": "Preview software"
     }
   ],
   "offers": [
@@ -252,7 +792,7 @@
       "name": "Lux AI Toolkit Club",
       "category": "Memberships",
       "badge": "Membership",
-      "icon": "◈",
+      "icon": "\u25c8",
       "description": "Creative prompt kits, member offers and a growing toolkit collection.",
       "priceLabel": "Pricing coming soon",
       "availability": "prelaunch",
@@ -264,7 +804,7 @@
       "name": "Lux Agent Builder",
       "category": "Software",
       "badge": "Build your team",
-      "icon": "✦",
+      "icon": "\u2726",
       "description": "Give your next AI teammate a role, a voice and a purpose.",
       "priceLabel": "Pricing coming soon",
       "availability": "browse",
@@ -276,7 +816,7 @@
       "name": "Lux Flow",
       "category": "Software",
       "badge": "Workflow",
-      "icon": "↗",
+      "icon": "\u2197",
       "description": "Make your best process repeatable, from trigger to handoff.",
       "priceLabel": "Pricing coming soon",
       "availability": "browse",
@@ -288,7 +828,7 @@
       "name": "AI Team Plus",
       "category": "Memberships",
       "badge": "Team",
-      "icon": "◎",
+      "icon": "\u25ce",
       "description": "Bring complementary AI roles together around your work.",
       "priceLabel": "Pricing coming soon",
       "availability": "prelaunch",
@@ -300,7 +840,7 @@
       "name": "Success Packs",
       "category": "Agent Packs",
       "badge": "Playbooks",
-      "icon": "◇",
+      "icon": "\u25c7",
       "description": "Focused business playbooks for your industry and next move.",
       "priceLabel": "Pricing coming soon",
       "availability": "prelaunch",
@@ -312,7 +852,7 @@
       "name": "Memory Packs",
       "category": "Agent Packs",
       "badge": "Context",
-      "icon": "▧",
+      "icon": "\u25a7",
       "description": "Give your AI team useful context and specialist knowledge.",
       "priceLabel": "Pricing coming soon",
       "availability": "prelaunch",
@@ -324,7 +864,7 @@
       "name": "Lux Money Suite",
       "category": "Software",
       "badge": "Business",
-      "icon": "↗",
+      "icon": "\u2197",
       "description": "A clearer view of your business plans and money questions.",
       "priceLabel": "Pricing coming soon",
       "availability": "browse",
@@ -336,7 +876,7 @@
       "name": "Lux Business Launch OS",
       "category": "Software",
       "badge": "Launch",
-      "icon": "✧",
+      "icon": "\u2727",
       "description": "Turn the first idea into a more focused business plan.",
       "priceLabel": "Pricing coming soon",
       "availability": "browse",
@@ -348,7 +888,7 @@
       "name": "Lux Voice",
       "category": "Software",
       "badge": "Voice",
-      "icon": "◉",
+      "icon": "\u25c9",
       "description": "Prepare a voice assistant that sounds like your business.",
       "priceLabel": "Pricing coming soon",
       "availability": "prelaunch",

@@ -70,10 +70,10 @@ function renderRail(id,items){const root=$(id);if(root)root.innerHTML=items.map(
 
 function renderHome(){
   const categories=[
-    ['Devices','Portable AI and companion hardware','▣'],['Software','Workspaces and operating tools','◫'],['Agent Packs','Roles, memory and success playbooks','◇'],['Prompt Kits','Creative prompts, skills and scripts','✦'],['Memberships','Growing Lux collections and access','◎']
+    ['Devices','Portable AI and companion hardware','▣','devices'],['Software','Workspaces and operating tools','◫','software'],['Agent Packs','Roles, memory and success playbooks','◇','packs'],['Prompt Kits','Creative prompts, skills and scripts','✦','prompts'],['Memberships','Growing Lux collections and access','◎','memberships']
   ]
   const categoryRoot=$('#category-grid')
-  if(categoryRoot)categoryRoot.innerHTML=categories.map(c=>'<a class="category-card" href="./shop.html?category='+encodeURIComponent(c[0])+'"><span>'+c[2]+'</span><b>'+c[0]+'</b><small>'+c[1]+'</small><i>Explore →</i></a>').join('')
+  if(categoryRoot)categoryRoot.innerHTML=categories.map(c=>'<a class="category-card" href="./shop.html?category='+encodeURIComponent(c[0])+'"><span class="category-icon">'+c[2]+'</span><b>'+c[0]+'</b><small>'+c[1]+'</small><i>Explore →</i><span class="category-art art-'+c[3]+'" aria-hidden="true"><span></span><span></span><span></span></span></a>').join('')
   const items=allItems()
   renderRail('#popular-rail',items.filter(item=>item.popular).slice(0,6))
   const nextIds=['viewer','agent-builder','lux-flow','lux-voice','usb']

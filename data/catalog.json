@@ -941,7 +941,11 @@
       "priceLabel": "Pricing coming soon",
       "availability": "prelaunch",
       "release": "standard",
-      "popular": false
+      "popular": false,
+      "images": [
+        "assets/premium/success-packs-product.webp",
+        "assets/premium/success-packs-product.png"
+      ]
     },
     {
       "id": "memory-packs",
@@ -969,7 +973,11 @@
       "priceLabel": "Pricing coming soon",
       "availability": "prelaunch",
       "release": "standard",
-      "popular": false
+      "popular": false,
+      "images": [
+        "assets/premium/lux-voice-product.webp",
+        "assets/premium/lux-voice-product.png"
+      ]
     }
   ],
   "guides": [

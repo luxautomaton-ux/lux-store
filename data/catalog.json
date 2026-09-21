@@ -61,12 +61,13 @@
       "tagline": "Your AI. Anywhere.",
       "description": "A portable Lux workspace designed to keep your tools, files and AI setup close at hand.",
       "images": [
-        "assets/software-covers/lux-agent-usb-box.png",
+        "assets/premium/usb-set.webp",
+        "assets/premium/usb-portrait.webp",
         "assets/approved-usb-set.png",
         "assets/approved-usb-device.png",
         "assets/approved-usb-package.png"
       ],
-      "detailImage": "assets/luxagentusb-gold.png",
+      "detailImage": "assets/premium/usb-set.webp",
       "features": [
         "Portable Lux collection",
         "Guided device setup and compatibility",
@@ -111,13 +112,14 @@
       "tagline": "Your AI team. Always in view.",
       "description": "A compact companion display for keeping your Lux team, conversations and workspace in view.",
       "images": [
+        "assets/premium/viewer.webp",
         "assets/software-covers/lux-agent-viewer-box.png",
         "assets/software-covers/lux-agent-viewer-flat.png",
         "assets/approved-viewer-set.png",
         "assets/approved-viewer-device.png",
         "assets/viewer-showcase.png"
       ],
-      "detailImage": "assets/viewer-showcase.png",
+      "detailImage": "assets/premium/viewer.webp",
       "features": [
         "Compact companion display",
         "Team and workspace overview",
@@ -162,9 +164,10 @@
       "tagline": "Give your next website another dimension.",
       "description": "Creative direction, reusable prompts, skills and starter tracks for cinematic 3D website work.",
       "images": [
+        "assets/premium/3d-studio-product.webp",
         "assets/kit-3d.png"
       ],
-      "detailImage": "assets/kit-3d.png",
+      "detailImage": "assets/premium/3d-studio-product.webp",
       "features": [
         "Creative direction and master prompt",
         "Eight reusable Lux skills",
@@ -210,9 +213,10 @@
       "tagline": "Build websites that move people.",
       "description": "A Lux AI Toolkit Club pack for scroll stories, frame sequences and interactive 3D experiences.",
       "images": [
+        "assets/premium/motionframe-product.webp",
         "assets/kit-motion.png"
       ],
-      "detailImage": "assets/kit-motion.png",
+      "detailImage": "assets/premium/motionframe-product.webp",
       "features": [
         "Twenty ready-to-adapt prompts",
         "Eight original visual and workflow skills",
@@ -301,7 +305,10 @@
       "release": "coming-soon",
       "popular": false,
       "new": true,
-      "cta": "Preview software"
+      "cta": "Preview software",
+      "legacyIds": [
+        "money-suite"
+      ]
     },
     {
       "id": "career-os",
@@ -571,7 +578,10 @@
       "release": "coming-soon",
       "popular": false,
       "new": true,
-      "cta": "Preview software"
+      "cta": "Preview software",
+      "legacyIds": [
+        "business-launch"
+      ]
     },
     {
       "id": "warm-connect",
@@ -636,6 +646,7 @@
       "tagline": "Smart texting. Human touch. AI power.",
       "description": "Send and reply, use AI assistance, schedule messages and keep conversations synchronized from one Lux messaging workspace.",
       "images": [
+        "assets/premium/messages.webp",
         "assets/software-covers/lux-messages-box.png"
       ],
       "features": [
@@ -780,60 +791,6 @@
       "cta": "Preview software"
     },
     {
-      "id": "ai-toolkit-club-software",
-      "name": "Lux AI Toolkit Club",
-      "category": "Software",
-      "family": "Creator Toolkit",
-      "badge": "Coming Soon",
-      "tagline": "Tools. Templates. Training. Together.",
-      "description": "A growing collection of tools, templates, training and member resources for creators and AI builders.",
-      "images": [
-        "assets/software-coming-soon.webp"
-      ],
-      "features": [
-        "Exclusive tools",
-        "Ready-to-use templates",
-        "Step-by-step training",
-        "Member resources"
-      ],
-      "specs": [
-        [
-          "Product type",
-          "Creator Toolkit"
-        ],
-        [
-          "Status",
-          "Coming Soon"
-        ],
-        [
-          "Estimated launch price",
-          "$29/mo est."
-        ],
-        [
-          "Estimated standalone value",
-          "$1,800/yr value"
-        ],
-        [
-          "Commerce",
-          "Prelaunch \u2014 no payment"
-        ]
-      ],
-      "included": [
-        "Exclusive tools",
-        "Ready-to-use templates",
-        "Step-by-step training",
-        "Member resources"
-      ],
-      "priceLabel": "$29/mo est. \u00b7 $1,800/yr value",
-      "estimatedPrice": "$29/mo est.",
-      "estimatedValue": "$1,800/yr value",
-      "availability": "prelaunch",
-      "release": "coming-soon",
-      "popular": false,
-      "new": true,
-      "cta": "Preview software"
-    },
-    {
       "id": "agent-builder",
       "name": "Lux Agent Builder",
       "category": "Software",
@@ -899,19 +856,48 @@
       "priceLabel": "Pricing coming soon",
       "availability": "prelaunch",
       "release": "featured",
-      "popular": true
-    },
-    {
-      "id": "agent-builder",
-      "name": "Lux Agent Builder",
-      "category": "Software",
-      "badge": "Build your team",
-      "icon": "\u2726",
-      "description": "Give your next AI teammate a role, a voice and a purpose.",
-      "priceLabel": "Pricing coming soon",
-      "availability": "browse",
-      "release": "featured",
-      "popular": true
+      "popular": true,
+      "legacyIds": [
+        "ai-toolkit-club-software"
+      ],
+      "images": [
+        "assets/premium/toolkit-club-product.webp"
+      ],
+      "detailImage": "assets/premium/toolkit-club-product.webp",
+      "features": [
+        "Exclusive tools",
+        "Ready-to-use templates",
+        "Step-by-step training",
+        "Member resources"
+      ],
+      "specs": [
+        [
+          "Product type",
+          "Creator Toolkit"
+        ],
+        [
+          "Status",
+          "Coming Soon"
+        ],
+        [
+          "Estimated launch price",
+          "$29/mo est."
+        ],
+        [
+          "Estimated standalone value",
+          "$1,800/yr value"
+        ],
+        [
+          "Commerce",
+          "Prelaunch \u2014 no payment"
+        ]
+      ],
+      "included": [
+        "Exclusive tools",
+        "Ready-to-use templates",
+        "Step-by-step training",
+        "Member resources"
+      ]
     },
     {
       "id": "lux-flow",
@@ -923,7 +909,11 @@
       "priceLabel": "Pricing coming soon",
       "availability": "browse",
       "release": "featured",
-      "popular": true
+      "popular": true,
+      "images": [
+        "assets/premium/lux-flow-product.webp"
+      ],
+      "detailImage": "assets/premium/lux-flow-product.webp"
     },
     {
       "id": "ai-team-plus",
@@ -935,7 +925,11 @@
       "priceLabel": "Pricing coming soon",
       "availability": "prelaunch",
       "release": "standard",
-      "popular": false
+      "popular": false,
+      "images": [
+        "assets/premium/team-plus-product.webp"
+      ],
+      "detailImage": "assets/premium/team-plus-product.webp"
     },
     {
       "id": "success-packs",
@@ -959,31 +953,11 @@
       "priceLabel": "Pricing coming soon",
       "availability": "prelaunch",
       "release": "standard",
-      "popular": false
-    },
-    {
-      "id": "money-suite",
-      "name": "Lux Money Suite",
-      "category": "Software",
-      "badge": "Business",
-      "icon": "\u2197",
-      "description": "A clearer view of your business plans and money questions.",
-      "priceLabel": "Pricing coming soon",
-      "availability": "browse",
-      "release": "standard",
-      "popular": false
-    },
-    {
-      "id": "business-launch",
-      "name": "Lux Business Launch OS",
-      "category": "Software",
-      "badge": "Launch",
-      "icon": "\u2727",
-      "description": "Turn the first idea into a more focused business plan.",
-      "priceLabel": "Pricing coming soon",
-      "availability": "browse",
-      "release": "standard",
-      "popular": false
+      "popular": false,
+      "images": [
+        "assets/premium/memory-packs-product.webp"
+      ],
+      "detailImage": "assets/premium/memory-packs-product.webp"
     },
     {
       "id": "lux-voice",

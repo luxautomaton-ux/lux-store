@@ -10,23 +10,25 @@
 </head>
 <body data-page="home">
   <div id="site-chrome"></div>
-  <main>
-    <section class="retail-hero">
+  <main id="main-content">
+    <section class="retail-hero premium-hero" aria-labelledby="hero-title">
       <div class="retail-hero-copy">
-        <span class="kicker">LUX AGENT USB · PORTABLE AI</span>
-        <h1>Your AI.<br><em>Anywhere.</em></h1>
-        <p>Carry your Lux workspace, tools and setup in a compact dual-connector device built for work that moves with you.</p>
+        <span class="kicker"><span class="signal-dot"></span> THE LUX PORTABLE COLLECTION</span>
+        <h1 id="hero-title">Your world.<br>Your workspace.<br><em>Anywhere.</em></h1>
+        <p>Meet Lux Agent USB. Your files, tools, and next big idea—together in a compact companion that goes where you do.</p>
         <div class="hero-actions">
-          <a class="button primary" href="./product.html?id=usb">Explore Lux Agent USB ↗</a>
-          <a class="button ghost" href="./shop.html?category=Devices">Shop devices</a>
+          <a class="button primary" href="./product.html?id=usb">Discover Lux Agent USB <span>↗</span></a>
+          <a class="text-link" href="./shop.html">Explore the collection →</a>
         </div>
-        <div class="hero-proof"><span>Portable workspace</span><span>Guided setup</span><span>Lux ecosystem ready</span></div>
+        <div class="hero-details"><span><b>USB-C + USB-A</b>Two ways to connect</span><span><b>Made to move</b>The portable Lux collection</span></div>
       </div>
       <div class="retail-hero-media">
-        <img src="./assets/approved-usb-set.png" alt="Lux Agent USB product set">
-        <div class="product-float"><span>FEATURED DEVICE</span><b>Lux Agent USB</b><small>Pricing will appear when fulfillment is commissioned.</small></div>
+        <img src="./assets/premium/usb-portrait.webp" width="1122" height="1402" fetchpriority="high" alt="Lux Agent USB in its silver packaging, with the black and silver dual-connector display device">
+        <span class="photo-caption">LUX AGENT USB / PORTABLE COLLECTION</span>
       </div>
+      <button class="motion-toggle" type="button" aria-pressed="false">Pause motion <span aria-hidden="true">Ⅱ</span></button>
     </section>
+    <div class="collection-strip"><span>THE LUX WAY</span><p>One ecosystem. More ways to make it yours.</p><a href="./shop.html">Find your Lux ↗</a></div>
 
     <section class="lineup section">
       <div class="section-head"><div><span class="kicker">SHOP BY CATEGORY</span><h2>Explore the Lux lineup.</h2></div><a href="./shop.html">Shop all →</a></div>
@@ -34,16 +36,17 @@
     </section>
 
     <section class="merch section">
-      <div class="section-head"><div><span class="kicker">CUSTOMER FAVORITES</span><h2>Most popular.</h2></div><a href="./shop.html?sort=featured">View all →</a></div>
+      <div class="section-head"><div><span class="kicker">THE LUX EDIT</span><h2>A few exceptional starting points.</h2></div><a href="./shop.html?sort=featured">View all →</a></div>
       <div class="product-rail" id="popular-rail"></div>
     </section>
 
-    <section class="feature-split usb-feature">
-      <div class="feature-media"><img src="./assets/approved-usb-device.png" alt="Lux Agent USB dual-connector device"></div>
-      <div class="feature-copy"><span class="kicker">WORK ANYWHERE</span><h2>Small device.<br>Big Lux workspace.</h2><p>The portable edition is designed around a compact dual-connector form, with setup and compatibility handled through the Lux ecosystem.</p>
-        <div class="spec-chips"><span>USB-C + USB form</span><span>Portable Lux setup</span><span>Customer-ready workflow</span></div>
-        <a class="button primary" href="./product.html?id=usb">See product details ↗</a>
-      </div>
+    <section class="ecosystem-story" aria-labelledby="ecosystem-title">
+      <div class="ecosystem-heading"><span class="kicker">DESIGNED TO WORK TOGETHER</span><h2 id="ecosystem-title">A bigger world.<br>Built around you.</h2><p>Start with one device. Explore workspaces, tools, and creative kits that bring the Lux experience together.</p><a class="button light" href="./shop.html">Meet the ecosystem ↗</a></div>
+      <img src="./assets/premium/ecosystem-wide.webp" width="2172" height="724" loading="lazy" alt="The Lux product collection with Lux Agent USB at the center">
+    </section>
+    <section class="campaign-grid section" aria-label="Explore Lux experiences">
+      <a class="campaign campaign-messages" href="./product.html?id=lux-messages"><div><span class="kicker">LUX MESSAGES</span><h2>Less typing.<br>More connection.</h2><p>A little help from LANA. A more personal conversation.</p><span class="text-link">Discover Lux Messages ↗</span></div><img src="./assets/premium/messages.webp" loading="lazy" width="1290" height="854" alt="Lux Messages front and back packaging with LANA"></a>
+      <a class="campaign campaign-builder" href="./product.html?id=agent-builder"><div><span class="kicker">LUX AGENT BUILDER</span><h2>Your next idea<br>needs a team.</h2><p>Explore a workspace for shaping your own AI agents.</p><span class="text-link">Explore Agent Builder ↗</span></div><img src="./assets/premium/agent-builder-banner.webp" loading="lazy" width="1536" height="1024" alt="Lux Automaton product collection with creative tools and devices"></a>
     </section>
 
     <section class="merch section dark-merch">
@@ -53,11 +56,11 @@
 
     <section class="viewer-story">
       <div class="viewer-copy"><span class="kicker">LUX AGENT VIEWER</span><h2>Your AI team.<br>Always in view.</h2><p>A compact companion for status, conversations, approvals and the moments when you want LANA close without opening your whole workspace.</p><a class="button light" href="./product.html?id=viewer">Explore Viewer ↗</a></div>
-      <img src="./assets/viewer-showcase.png" alt="Lux Agent Viewer on a desk">
+      <img src="./assets/premium/viewer.webp" loading="lazy" alt="The actual Lux Agent Viewer device with LANA on its screen">
     </section>
 
     <section class="proof section">
-      <div class="section-head"><div><span class="kicker">WHY LUX</span><h2>Built around proof, not promises.</h2></div></div>
+      <div class="section-head"><div><span class="kicker">WHY LUX</span><h2>Thoughtful tools. Your decisions.</h2></div></div>
       <div class="proof-grid">
         <article><b>01</b><h3>Lux Verify gate</h3><p>New public Kit Creator packs are blocked from Store publishing until required quality and verification evidence passes.</p></article>
         <article><b>02</b><h3>Human approval</h3><p>Lux is designed to show what the agent plans and did, keeping important decisions with the person using it.</p></article>
@@ -70,9 +73,9 @@
       <div class="section-head"><div><span class="kicker">SHOP BY GOAL</span><h2>Start with what you want to do.</h2></div></div>
       <div class="goal-grid">
         <a href="./product.html?id=desktop"><span>RUN YOUR AI WORKSPACE</span><b>Lux Agent Desktop</b><small>Chat, voice, projects and tools in one home.</small></a>
-        <a href="./shop.html?category=Agent%20Packs"><span>BUILD YOUR AI TEAM</span><b>Agent Packs</b><small>Roles, context and playbooks built around a job.</small></a>
+        <a class="goal-agent-packs" href="./shop.html?category=Agent%20Packs"><span>BUILD YOUR AI TEAM</span><b>Agent Packs</b><small>Roles, context and playbooks built around a job.</small></a>
         <a href="./shop.html?q=Lux%20Flow"><span>AUTOMATE THE WORK</span><b>Lux Flow</b><small>Turn repeatable work into a reviewed workflow.</small></a>
-        <a href="./product.html?id=usb"><span>WORK ANYWHERE</span><b>Lux Agent USB</b><small>Take the Lux experience with you.</small></a>
+        <a class="goal-usb" href="./product.html?id=usb"><span>WORK ANYWHERE</span><b>Lux Agent USB</b><small>Take the Lux experience with you.</small></a>
       </div>
     </section>
 
@@ -80,7 +83,7 @@
       <div class="section-head"><div><span class="kicker">LUX AI TOOLKIT CLUB</span><h2>Less blank page. More possibility.</h2></div><a href="./shop.html?category=Prompt%20Kits">Browse kits →</a></div>
       <div class="kit-feature">
         <div class="kit-stack"><img src="./assets/kit-3d.png" alt="3D Website Studio toolkit cover"><img src="./assets/kit-motion.png" alt="MotionFrame Studio toolkit cover"></div>
-        <div><h3>Verified creative starting points.</h3><p>Prompt Kits package useful prompts, skills, scripts, templates and workflows into something you can actually use with LANA.</p><ul><li>Original Lux instructions and examples</li><li>Branded cover and card art</li><li>Quality and verification evidence for new public releases</li></ul><a class="button primary" href="./shop.html?category=Prompt%20Kits">Explore Prompt Kits ↗</a></div>
+        <div><h3>Bring your imagination<br>into the browser.</h3><p>Prompt Kits package useful prompts, skills, scripts, templates and workflows into something you can actually use with LANA.</p><ul><li>Original Lux instructions and examples</li><li>Branded cover and card art</li><li>Quality and verification evidence for new public releases</li></ul><a class="button primary" href="./shop.html?category=Prompt%20Kits">Explore Prompt Kits ↗</a></div>
       </div>
     </section>
 

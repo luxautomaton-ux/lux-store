@@ -1,0 +1,44 @@
+[
+  {
+    "source": "assets/premium/usb-portrait.png",
+    "sourceSha256": "49110e03925209712e94626c64594094d2c5654900a87692ffd704aa96c75482",
+    "web": "assets/premium/usb-portrait.webp",
+    "sourceBytes": 1930701,
+    "webBytes": 178608
+  },
+  {
+    "source": "assets/premium/ecosystem-wide.png",
+    "sourceSha256": "944c37ee61b371563bf6b437a79ae5719637a9a055df0ecfc9170f83f1cacff3",
+    "web": "assets/premium/ecosystem-wide.webp",
+    "sourceBytes": 2174878,
+    "webBytes": 257494
+  },
+  {
+    "source": "assets/premium/ecosystem.png",
+    "sourceSha256": "d7ea158e3d9dedb7d118a21f006b0ee1c43b2817cb419e97a035700c2ff96b65",
+    "web": "assets/premium/ecosystem.webp",
+    "sourceBytes": 2504050,
+    "webBytes": 316490
+  },
+  {
+    "source": "assets/premium/usb-set.png",
+    "sourceSha256": "2087c1b887a401a1a4606d25ad08cad349ce4f9877892b69ebedbaec29e1ebc2",
+    "web": "assets/premium/usb-set.webp",
+    "sourceBytes": 2934183,
+    "webBytes": 157166
+  },
+  {
+    "source": "assets/premium/messages.jpg",
+    "sourceSha256": "91849c76039b4e9424f5f7e2a8df7b929d16ee208284c3b93d8e41fd3ecf1afb",
+    "web": "assets/premium/messages.webp",
+    "sourceBytes": 1312422,
+    "webBytes": 187326
+  },
+  {
+    "source": "assets/premium/viewer.png",
+    "sourceSha256": "2d4438643d084b4bab3047d2c9c67ecb4565661fe5fe521c4ebe8d9523115780",
+    "web": "assets/premium/viewer.webp",
+    "sourceBytes": 2257594,
+    "webBytes": 253956
+  }
+]

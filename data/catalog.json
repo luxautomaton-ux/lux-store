@@ -12,6 +12,7 @@
       "tagline": "Your ideas. One powerful home.",
       "description": "Bring conversations, projects, voice and your AI tools into a personal workspace built around the way you work.",
       "images": [
+        "assets/software-covers/lux-agent-desktop-box.png",
         "assets/desktop-front.png",
         "assets/desktop-back.png"
       ],
@@ -60,6 +61,7 @@
       "tagline": "Your AI. Anywhere.",
       "description": "A portable Lux workspace designed to keep your tools, files and AI setup close at hand.",
       "images": [
+        "assets/software-covers/lux-agent-usb-box.png",
         "assets/approved-usb-set.png",
         "assets/approved-usb-device.png",
         "assets/approved-usb-package.png"
@@ -109,6 +111,8 @@
       "tagline": "Your AI team. Always in view.",
       "description": "A compact companion display for keeping your Lux team, conversations and workspace in view.",
       "images": [
+        "assets/software-covers/lux-agent-viewer-box.png",
+        "assets/software-covers/lux-agent-viewer-flat.png",
         "assets/approved-viewer-set.png",
         "assets/approved-viewer-device.png",
         "assets/viewer-showcase.png"
@@ -254,7 +258,7 @@
       "tagline": "Run your money workflow at a glance.",
       "description": "Invoicing, cash flow, payments and business reporting in one finance workspace.",
       "images": [
-        "assets/software-coming-soon.webp"
+        "assets/software-covers/lux-money-suite-os-box.png"
       ],
       "features": [
         "Invoicing workflows",
@@ -308,7 +312,7 @@
       "tagline": "Your next career move, organized.",
       "description": "Job discovery, resume readiness, interview prep, networking and career growth in one workspace.",
       "images": [
-        "assets/software-coming-soon.webp"
+        "assets/software-covers/lux-career-os-box.png"
       ],
       "features": [
         "Job search and discovery",
@@ -362,7 +366,7 @@
       "tagline": "Intelligence meets security.",
       "description": "Lux protection center for privacy, data security, monitoring and defensive workflows.",
       "images": [
-        "assets/software-coming-soon.webp"
+        "assets/software-covers/lux-security-box.png"
       ],
       "features": [
         "Security center",
@@ -416,7 +420,7 @@
       "tagline": "Your ideas, secured.",
       "description": "Protect source code, apps, agent packs, prompts and digital distribution with Lux protection workflows.",
       "images": [
-        "assets/software-coming-soon.webp"
+        "assets/software-covers/lux-ip-shield-box.png"
       ],
       "features": [
         "Code and app protection",
@@ -470,7 +474,7 @@
       "tagline": "Faster compliance. Stronger protection.",
       "description": "AI-assisted policy analysis, compliance checks, risk detection and regulatory guidance workflows.",
       "images": [
-        "assets/software-coming-soon.webp"
+        "assets/software-covers/lux-law-ai-check-box.png"
       ],
       "features": [
         "Policy analysis",
@@ -524,7 +528,7 @@
       "tagline": "Idea to income, faster.",
       "description": "Plan a business, build go-to-market systems, automate growth and organize client revenue workflows.",
       "images": [
-        "assets/software-coming-soon.webp"
+        "assets/software-covers/business-launch-os-box.png"
       ],
       "features": [
         "Business idea planner",
@@ -578,7 +582,7 @@
       "tagline": "People. Opportunities. Real relationships.",
       "description": "Relationship intelligence for finding people, organizing outreach, scheduling and building lasting connections.",
       "images": [
-        "assets/software-coming-soon.webp"
+        "assets/software-covers/lux-warm-connect-box.png"
       ],
       "features": [
         "Find and connect",
@@ -624,15 +628,59 @@
       "cta": "Preview software"
     },
     {
+      "id": "lux-messages",
+      "name": "Lux Messages",
+      "category": "Software",
+      "family": "AI Messaging",
+      "badge": "Coming Soon",
+      "tagline": "Smart texting. Human touch. AI power.",
+      "description": "Send and reply, use AI assistance, schedule messages and keep conversations synchronized from one Lux messaging workspace.",
+      "images": [
+        "assets/software-covers/lux-messages-box.png"
+      ],
+      "features": [
+        "Send and reply",
+        "AI assist",
+        "Schedule messages",
+        "Sync conversations"
+      ],
+      "specs": [
+        [
+          "Product type",
+          "AI Messaging"
+        ],
+        [
+          "Status",
+          "Coming Soon"
+        ],
+        [
+          "Commerce",
+          "Prelaunch \u2014 no payment"
+        ]
+      ],
+      "included": [
+        "Messaging workspace",
+        "AI-assisted drafts",
+        "Scheduling workflows",
+        "Conversation sync"
+      ],
+      "priceLabel": "Pricing coming soon",
+      "availability": "prelaunch",
+      "release": "coming-soon",
+      "popular": false,
+      "new": true,
+      "cta": "Preview software"
+    },
+    {
       "id": "lana-reader",
-      "name": "LANA Reader",
+      "name": "Lux Reader",
       "category": "Software",
       "family": "Document Intelligence",
       "badge": "Coming Soon",
       "tagline": "Know more. Faster.",
       "description": "A PDF and document workspace for reading, summaries, search, notes and actionable insights.",
       "images": [
-        "assets/software-coming-soon.webp"
+        "assets/software-covers/lux-reader-box.png"
       ],
       "features": [
         "Read and understand",
@@ -686,7 +734,7 @@
       "tagline": "Audit. Verify. Trust.",
       "description": "Evidence-driven verification, compliance audits, identity checks and risk assessment for Lux workflows.",
       "images": [
-        "assets/software-coming-soon.webp"
+        "assets/software-covers/lux-verify-box.png"
       ],
       "features": [
         "Verification evidence",
@@ -794,7 +842,7 @@
       "tagline": "Ideas. Agents. Real results.",
       "description": "Build, customize and prepare AI agents and workflows for deployment across the Lux ecosystem.",
       "images": [
-        "assets/software-coming-soon.webp"
+        "assets/software-covers/lux-agent-builder-box.png"
       ],
       "features": [
         "Build AI agents",
